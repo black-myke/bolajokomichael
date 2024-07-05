@@ -1,0 +1,67 @@
+.projectCard {
+    width: 400px;
+    height: 100%;
+    border-radius: 15px;
+    margin: 10px auto;
+    box-shadow: 2px 2px 7px 1px rgba(0,0,0,0.73);
+    padding-bottom: 15px;
+}
+
+.projectCard img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.projectCard h3 {
+    margin: 10px 10px;
+    color: #FBE9D0;
+    font-family: Chillax;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.projectCard h4 {
+    margin: 5px 10px;
+    color: #FE7F2D;
+    font-family: Arnaud;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+.projectCard p {
+    margin: 10px 10px;
+    color: #FBE9D0;
+    font-weight: 400;
+}
+
+.projectLink {
+    text-align: center;
+    padding: 10px 0px;
+}
+.projectLink a {
+    text-decoration: none;
+    background-color: #FE7F2D;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.projectLink a:hover {
+    background-color: #a15522;
+    color: #000;
+    transition: .4s;
+}
+
+
+@media (max-width: 767px) {
+    .projectCard {
+    width: 300px;
+    margin: 10px auto;
+}
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .projectCard {
+    width: 320px;
+    margin: 10px auto;
+    }
+}
