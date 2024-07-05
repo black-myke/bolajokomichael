@@ -44,7 +44,8 @@ const Home = () => {
       </div>
 
       <Container fluid className="home-section">
-        <Row>
+
+        <Row className="home-main">
           <Col xs={12} lg={6} className="home-text">
             <h2 className="hi">Hi,</h2>
             <h1 className="intro">
@@ -61,7 +62,7 @@ const Home = () => {
 
           <Col className="letsWork" xs={12} lg={12}>
             <a target="_blank" href={mailLink}>
-              Let Work!
+              Let's Work!
             </a>
           </Col>
         </Row>

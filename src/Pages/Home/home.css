@@ -324,4 +324,7 @@
   .bootstrap {
     top: 580px;
   }
+  .home-main {
+    padding-bottom: 50px;
+  }
 }
