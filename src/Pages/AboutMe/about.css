@@ -117,13 +117,13 @@
     }
 }
 
-@media (min-width: 995px) {
+@media (min-width: 995px)  {
     .profileAbout-img {
         padding-top: 50px;
     }
 
     .about-text {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .aboutHeading {
@@ -142,6 +142,7 @@
     .contact {
         display: flex;
         margin-top: 15px;
+        margin-bottom: 80px;
     }
 
     .contact img {

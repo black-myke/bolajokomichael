@@ -56,7 +56,7 @@ const About = () => {
               lifestyle.
             </p>
 
-            <br />
+            {/* <br /> */}
             <h2 className="aboutHeading">
               <span>Co</span>ntact Me
             </h2>
