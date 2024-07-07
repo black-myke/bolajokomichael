@@ -306,11 +306,14 @@
 }
 
 @media (min-width: 995px) {
-  .home-section {
-    padding-bottom: 100px;
+  .letsWork {
+    padding-top: 0px;
+    margin-top: 0px;
   }
   .profile-img {
     padding-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .home-text {
     padding-left: 50px;
@@ -325,7 +328,6 @@
     top: 580px;
   }
   .home-main {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    height: 100vh;
   }
 }
