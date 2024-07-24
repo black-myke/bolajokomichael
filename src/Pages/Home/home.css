@@ -15,6 +15,9 @@
   padding-top: 70px;
   /* padding-bottom: 200px; */
 }
+.mobile-home {
+  display: none;
+}
 
 .github {
   position: absolute;
@@ -108,7 +111,6 @@
 .stack span {
   animation: slideInFromBottom 0.4s ease-in-out;
   display: inline-block;
-  
 }
 
 @keyframes slideInFromBottom {
@@ -143,7 +145,7 @@
   text-align: center;
   height: 70px;
   animation-name: work;
-  animation-duration: .5s;
+  animation-duration: 0.5s;
   animation-direction: alternate-reverse;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
@@ -161,9 +163,12 @@
   padding: 10px;
 }
 @keyframes work {
-  from {transform: scale();}
-  to {transform: scale(1.1);}
-
+  from {
+    transform: scale();
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
 .letsWork a:hover {
@@ -201,6 +206,31 @@
   .github {
     top: 95%;
     display: none;
+  }
+
+  .mobile-home {
+    display: block;
+    width: 100%;
+  }
+  .mobile-resume {
+    height: 60px;
+    width: 140px;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fe7f2d;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    font-size: 33px;
+    color: #fbe9d0;
+    font-family: Ambroise;
+    font-weight: 1000;
+  }
+  .mobile-resume:hover {
+    background-color: #da5801;
+    color: #000;
+    transition: 0.2s ease-in-out;
   }
 }
 
@@ -247,7 +277,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .home-section {
     padding-top: 0px;
-    padding-bottom: 180px;
+    padding-bottom: 0px;
   }
   .home-text {
     font-family: Arnaud;
@@ -297,7 +327,30 @@
     opacity: 0.2;
   }
 
-  
+  .mobile-home {
+    display: block;
+    width: 100%;
+  }
+  .mobile-resume {
+    height: 60px;
+    width: 140px;
+    border: 0px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #fe7f2d;
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    font-size: 33px;
+    color: #fbe9d0;
+    font-family: Ambroise;
+    font-weight: 1000;
+  }
+  .mobile-resume:hover {
+    background-color: #da5801;
+    color: #000;
+    transition: 0.2s ease-in-out;
+  }
 }
 
 @media (min-width: 995px) {

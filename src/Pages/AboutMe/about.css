@@ -1,160 +1,159 @@
 @font-face {
-    font-family: SolPro;
-    src: url(../../assets/Fonts/SolPro-Bold.ttf);
+  font-family: SolPro;
+  src: url(../../assets/Fonts/SolPro-Bold.ttf);
 }
 
 @font-face {
-    font-family: Arnaud;
-    src: url(../../assets/Fonts/Arnaud-Regular.otf);
+  font-family: Arnaud;
+  src: url(../../assets/Fonts/Arnaud-Regular.otf);
 }
 @font-face {
-    font-family: Chillax;
-    src: url(../../assets/Fonts/Chillax.ttf);
+  font-family: Chillax;
+  src: url(../../assets/Fonts/Chillax.ttf);
 }
-
-
 
 .about-image {
-    display: block;
-    margin: auto;
-    height: 400px;
-    width: 400px;
-    border-radius: 200px;
-    border: 3px double #A1C181;
+  display: block;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  border-radius: 200px;
+  border: 3px double #a1c181;
 }
 .aboutHeading {
-    font-family: SolPro;
-    color: #000;
+  font-family: SolPro;
+  color: #000;
 }
 .aboutHeading span {
-    border-bottom: 3px solid #FE7F2D;
-    border-radius: 0px 2px 0px 2px;
+  border-bottom: 3px solid #fe7f2d;
+  border-radius: 0px 2px 0px 2px;
 }
 .aboutPara {
-    font-family: Chillax;
-    color: #FBE9D0;
+  font-family: Chillax;
+  color: #fbe9d0;
 }
 
 .contact img {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .contact a {
-    text-decoration: none;
-    color: #FBE9D0;
-    font-family: Arnaud;
-    font-weight: 100;
+  text-decoration: none;
+  color: #fbe9d0;
+  font-family: Arnaud;
+  font-weight: 100;
 }
-.mail a:hover, .linkedinProfile a:hover {
-    text-decoration: underline;
+.mail a:hover,
+.linkedinProfile a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
-    .about-image {
-        display: block;
-        margin-top: 70px;
-        height: 300px;
-        width: 300px;
-    }
+  .about-image {
+    display: none;
+    margin-top: 70px;
+    height: 300px;
+    width: 300px;
+  }
 
-    .about-text {
-        margin-top: 25px;
-        padding-left: 20px;
-    }
-    .aboutPara {
-        padding-right: 10px;
-        font-weight: normal;
-        padding-top: 5px;
-    }
+  .about-text {
+    margin-top: 70px;
+    padding-left: 20px;
+  }
+  .aboutPara {
+    padding-right: 10px;
+    font-weight: normal;
+    padding-top: 5px;
+  }
 
-    .contact {
-        margin-top: 20px;
-    }
-    .contact a {
-        font-size: 18px;
-    }
-    .linkedinProfile {
-        margin-top: 15px;
-        margin-bottom: 25px;
-    }
+  .contact {
+    margin-top: 20px;
+  }
+  .contact a {
+    font-size: 18px;
+  }
+  .linkedinProfile {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .about-image {
-        display: block;
-        margin-top: 30px;
-        height: 500px;
-        width: 500px;
-    }
-    
-    .about-text {
-        margin-top: 40px;
-        padding-left: 30px;
-    }
+  .about-image {
+    display: none;
+    margin-top: 30px;
+    height: 500px;
+    width: 500px;
+  }
 
-    .aboutHeading {
-        font-size: 40px;
-    }
-    .aboutHeading span {
-    border-bottom: 5px solid #FE7F2D;
-    }
+  .about-text {
+    margin-top: 40px;
+    padding-left: 30px;
+  }
 
-    .aboutPara {
-        padding-right: 10px;
-        padding-top: 10px;
-        font-size: 28px;
-    }
+  .aboutHeading {
+    font-size: 40px;
+  }
+  .aboutHeading span {
+    border-bottom: 5px solid #fe7f2d;
+  }
 
-    .contact {
-        margin-top: 20px;
-    }
-    .contact a {
-        font-size: 20px;
-    }
-    .linkedinProfile {
-        margin-top: 15px;
-        margin-bottom: 25px;
-    }
+  .aboutPara {
+    padding-right: 10px;
+    padding-top: 10px;
+    font-size: 28px;
+  }
+
+  .contact {
+    margin-top: 20px;
+  }
+  .contact a {
+    font-size: 20px;
+  }
+  .linkedinProfile {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
 }
 
-@media (min-width: 995px)  {
-    .profileAbout-img {
-        padding-top: 50px;
-    }
+@media (min-width: 995px) {
+  .profileAbout-img {
+    padding-top: 50px;
+  }
 
-    .about-text {
-        margin-top: 20px;
-    }
+  .about-text {
+    margin-top: 20px;
+  }
 
-    .aboutHeading {
-        font-size: 30px;
-    }
-    .aboutHeading span {
-    border-bottom: 3px solid #FE7F2D;
-    }
+  .aboutHeading {
+    font-size: 30px;
+  }
+  .aboutHeading span {
+    border-bottom: 3px solid #fe7f2d;
+  }
 
-    .aboutPara {
-        padding-right: 20px;
-        padding-top: 10px;
-        font-size: 18px;
-    }
+  .aboutPara {
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+  }
 
-    .contact {
-        display: flex;
-        margin-top: 15px;
-        margin-bottom: 80px;
-    }
+  .contact {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 80px;
+  }
 
-    .contact img {
-        margin-right: 10px;
-    }
+  .contact img {
+    margin-right: 10px;
+  }
 
-    .contact a {
-        text-decoration: none;
-        color: #FBE9D0;
-    }
+  .contact a {
+    text-decoration: none;
+    color: #fbe9d0;
+  }
 
-    .mail {
-        margin-right: 30px;
-    }
+  .mail {
+    margin-right: 30px;
+  }
 }
