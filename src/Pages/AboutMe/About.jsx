@@ -1,12 +1,6 @@
 import React from "react";
 import "../AboutMe/about.css";
 import { Container, Col, Row } from "react-bootstrap";
-import github from "../../assets/Images/github2.svg";
-import html from "../../assets/Images/html-logo.svg";
-import javascript from "../../assets/Images/javascript.png";
-import css from "../../assets/Images/css-logo.svg";
-import reactLogo from "../../assets/Images/react-logo.svg";
-import bootstrap from "../../assets/Images/bootstrap.svg";
 import Profile from "../../assets/Images/avi.jpg";
 import aboutAvi from "../../assets/Images/about-picture.jpg"
 import Mail from "../../assets/Images/email-svg.svg"
@@ -18,12 +12,6 @@ const About = () => {
   const linkedinLink = "www.linkedin.com/in/michael-bolajoko";
   return (
     <div className="home-head">
-      <div className="tools">
-        <img className="github" src={github} alt="github" />
-        <img className="css" src={css} alt="css" />
-        <img className="html" src={html} alt="html" />
-        <img className="bootstrap" src={bootstrap} alt="" />
-      </div>
 
       <Container fluid className="home-section">
         <Row>

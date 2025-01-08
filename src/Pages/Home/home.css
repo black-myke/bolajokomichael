@@ -13,65 +13,11 @@
 
 .home-head {
   padding-top: 70px;
-  /* padding-bottom: 200px; */
 }
 .mobile-home {
   display: none;
 }
 
-.github {
-  position: absolute;
-  top: 95%;
-  left: 1%;
-  opacity: 0.2;
-  animation-name: bootstrap;
-  animation-duration: 0.5s;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.css {
-  position: absolute;
-  left: 90%;
-  opacity: 0.2;
-  animation-name: tools;
-  animation-duration: 0.4s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-.bootstrap {
-  position: absolute;
-  top: 95%;
-  left: 93%;
-  opacity: 0.2;
-  animation-name: bootstrap;
-  animation-duration: 0.5s;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-@keyframes bootstrap {
-  from {
-    transform: rotate(-20deg);
-  }
-  to {
-    transform: rotate(20deg);
-  }
-}
-
-.html {
-  position: absolute;
-  opacity: 0.2;
-  animation-name: tools;
-  animation-duration: 0.4s;
-  animation-direction: alternate;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
 
 @keyframes tools {
   from {
@@ -140,21 +86,33 @@
 }
 
 .letsWork {
-  margin-top: 10px;
-  padding-top: 20px;
+  margin-top: 0;
+  /* padding-top: 20px; */
   text-align: center;
   height: 70px;
+  width: fit-content;
+}
+.letsWork:hover {
   animation-name: work;
   animation-duration: 0.5s;
-  animation-direction: alternate-reverse;
+  /* animation-direction: alternate-reverse; */
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
   animation-timing-function: linear;
 }
+@keyframes work {
+  from {
+    transform: scale();
+  }
+  to {
+    transform: scale(1.01);
+  }
+}
+
 .letsWork a {
   text-decoration: none;
   font-family: Ambroise;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 600;
   margin-left: 30px;
   color: #fbe9d0;
@@ -162,14 +120,7 @@
   border-radius: 10px;
   padding: 10px;
 }
-@keyframes work {
-  from {
-    transform: scale();
-  }
-  to {
-    transform: scale(1.1);
-  }
-}
+
 
 .letsWork a:hover {
   color: #000;
@@ -212,26 +163,6 @@
     display: block;
     width: 100%;
   }
-  .mobile-resume {
-    height: 60px;
-    width: 140px;
-    border: 0px;
-    border-radius: 8px;
-    text-align: center;
-    background-color: #fe7f2d;
-    display: block;
-    margin: auto;
-    text-decoration: none;
-    font-size: 33px;
-    color: #fbe9d0;
-    font-family: Ambroise;
-    font-weight: 1000;
-  }
-  .mobile-resume:hover {
-    background-color: #da5801;
-    color: #000;
-    transition: 0.2s ease-in-out;
-  }
 }
 
 @media (max-width: 767px) {
@@ -271,6 +202,29 @@
   .letsWork {
     margin-top: 10px;
     padding-top: 0px;
+    display: block;
+  }
+
+  .resume-work {
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 991px) {
+  .letsWork {
+    margin-top: 10px;
+    padding-top: 0px;
+    display: block;
+  }
+
+  .resume-work {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
   }
 }
 
@@ -331,35 +285,30 @@
     display: block;
     width: 100%;
   }
-  .mobile-resume {
-    height: 60px;
-    width: 140px;
-    border: 0px;
-    border-radius: 8px;
-    text-align: center;
-    background-color: #fe7f2d;
+
+
+  .letsWork {
+    margin-top: 10px;
+    padding-top: 0px;
     display: block;
-    margin: auto;
-    text-decoration: none;
-    font-size: 33px;
-    color: #fbe9d0;
-    font-family: Ambroise;
-    font-weight: 1000;
   }
-  .mobile-resume:hover {
-    background-color: #da5801;
-    color: #000;
-    transition: 0.2s ease-in-out;
+
+  .resume-work {
+    width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
   }
 }
 
 @media (min-width: 995px) {
   .letsWork {
     padding-top: 0px;
-    margin-top: 0px;
+    margin: 30px auto 0 auto;
   }
-  .home-section {
-    padding-bottom: 100px;
+  .go-resume {
+    display: none;
+
   }
   .profile-img {
     padding-top: 50px;
@@ -377,8 +326,5 @@
   }
   .bootstrap {
     top: 580px;
-  }
-  .home-main {
-    height: 100vh;
   }
 }

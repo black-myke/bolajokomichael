@@ -17,6 +17,7 @@ const Home = () => {
   const Resume =
     "https://drive.google.com/file/d/1x16rQEjht5B4Pc46K4n_C97Zz_OPYXF7/view";
 
+
   const names = ["React Developer", "Web Designer", "Frontend Web Developer"];
   const [currentName, setCurrentName] = useState(names[0]);
   const [index, setIndex] = useState(0);
@@ -35,12 +36,6 @@ const Home = () => {
 
   return (
     <div className="home-head">
-      <div className="tools">
-        <img className="github" src={github} alt="github" />
-        <img className="css" src={css} alt="css" />
-        <img className="html" src={html} alt="html" />
-        <img className="bootstrap" src={bootstrap} alt="" />
-      </div>
 
       <Container fluid className="home-section">
         <Row className="home-main">
@@ -57,10 +52,18 @@ const Home = () => {
           <Col xs={12} lg={6} className="profile-img">
             <img className="image" src={Profile} alt="Michael Bolajoko" />
           </Col>
+        </Row>
 
-          <Col className="letsWork" xs={12} lg={12}>
+        <Row className="resume-work">
+          <Col className="letsWork d-block" xs={6} sm={6} lg={12}>
             <a target="_blank" href={mailLink}>
-              Let's Work!
+              Let's Work
+            </a>
+          </Col>
+
+          <Col className="letsWork go-resume" xs={6} sm={6} lg={0}>
+            <a target="_blank" href={Resume}>
+              My Resume
             </a>
           </Col>
         </Row>
@@ -68,9 +71,6 @@ const Home = () => {
 
       <div className="mobile-home">
         <About />
-        <a href={Resume} className="mobile-resume" target="_blank">
-          Resume
-        </a>
         <Skills />
         <Projects />
       </div>

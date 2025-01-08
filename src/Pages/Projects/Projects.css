@@ -2,12 +2,20 @@
   margin-bottom: 50px;
 }
 
+
 .project-section h2 {
-    padding-left: 10px;
+    padding-left: 40px;
 }
 
-@media (max-width: 767px) {
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 50px;
+    justify-content: center;
+}
+
+/* @media (max-width: 767px) {
     .project-section {
         padding-top: 70px;
     }
-}
+} */

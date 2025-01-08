@@ -30,7 +30,8 @@
 }
 .aboutPara {
   font-family: Chillax;
-  color: #fbe9d0;
+  color: #000000;
+  font-size: 20px;
 }
 
 .contact img {
@@ -39,9 +40,10 @@
 
 .contact a {
   text-decoration: none;
-  color: #fbe9d0;
+  color: #000000;
   font-family: Arnaud;
   font-weight: 100;
+  font-size: 20px;
 }
 .mail a:hover,
 .linkedinProfile a:hover {
@@ -57,7 +59,7 @@
   }
 
   .about-text {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     padding-left: 20px;
   }
   .aboutPara {
@@ -150,7 +152,6 @@
 
   .contact a {
     text-decoration: none;
-    color: #fbe9d0;
   }
 
   .mail {

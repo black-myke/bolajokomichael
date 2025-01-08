@@ -1,19 +1,25 @@
 .projectCard {
-    width: 400px;
-    height: 100%;
-    border-radius: 15px;
-    margin: 10px auto;
-    box-shadow: 2px 2px 7px 1px rgba(0,0,0,0.73);
+    width: 300px;
+    height: 450px;
+    margin: 20px 50px;
     padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px 1px rgba(0,0,0,0.73);
+    
 }
 
 .projectCard img {
-    width: 100%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
 }
 
 .projectCard h3 {
-    margin: 10px 10px;
+    margin: -5px 10px;
     color: #FBE9D0;
     font-family: Chillax;
     font-weight: 800;
@@ -21,7 +27,7 @@
 }
 
 .projectCard h4 {
-    margin: 5px 10px;
+    margin: -5px 10px;
     color: #FE7F2D;
     font-family: Arnaud;
     font-weight: 1000;
@@ -29,14 +35,13 @@
 }
 
 .projectCard p {
-    margin: 10px 10px;
+    margin: -10px 10px;
     color: #FBE9D0;
     font-weight: 400;
 }
 
 .projectLink {
     text-align: center;
-    padding: 10px 0px;
 }
 .projectLink a {
     text-decoration: none;
@@ -45,6 +50,7 @@
     padding: 10px;
     font-weight: 500;
     color: #FFFFFF;
+    margin: 5px 0;
 }
 .projectLink a:hover {
     background-color: #a15522;
