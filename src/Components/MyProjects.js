@@ -8,7 +8,7 @@ import I2I from "../assets/Images/I2I.png"
 const viatour = "https://responsive-page-group-7.vercel.app/";
 const digi = "https://group-7-product-page.vercel.app/";
 const academy = "https://txt-academy.vercel.app/";
-const innovatetoimpact = "https://innovatetoimpact.org/";
+const innovatetoimpact = "https://www.innovatetoimpact.org/";
 const genioconsult = "https://genioconsults.xyz/";
 
 
