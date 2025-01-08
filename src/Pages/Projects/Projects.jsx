@@ -23,7 +23,7 @@ const Projects = () => {
         name={projectinfo.name}
         tools={projectinfo.tools}
         info={projectinfo.info}
-        link={projectinfo.lnk}
+        link={projectinfo.link}
       />
     );
   }
